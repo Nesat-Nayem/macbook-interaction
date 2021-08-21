@@ -17,7 +17,7 @@
                 <div class="row mt-3">
                     <!-- img part left side -->
                     <div class="col col-lg-6">
-                        <img class="img-fluid w-50 float-end" src="images/mac.png" alt="">
+                        <img class="img-fluid w-auto float-end" src="images/mac.png" alt="">
                     </div>
                   <!-- text and functionality right side -->
                     <div class="col col-lg-6">
@@ -28,8 +28,8 @@
                         <div class="mb-4">
                             <h5>Memory</h5>
                             <div>
-                                <button class="btn btn-outline-info">8GB Unified Memory</button>
-                                <button class="btn btn-outline-info">16GB Unified Memory</button>
+                                <button id="EightGB" class="btn btn-outline-dark">8GB Unified Memory</button>
+                                <button id="sixtenGB" class="btn btn-outline-dark">16GB Unified Memory</button>
                             </div>
                         </div>
 
@@ -38,9 +38,9 @@
                         <div class="mb-4">
                             <h5>Storage</h5>
                             <div>
-                                <button class="btn btn-outline-success">256GB SSD Storage</button>
-                                <button class="btn btn-outline-success">512GB SSD Storage</button>
-                                <button class="btn btn-outline-success">1TB SSD Storage</button>
+                                <button id="storageFrist" class="btn btn-outline-dark">256GB SSD Storage</button>
+                                <button id="storageSecond" class="btn btn-outline-dark">512GB SSD Storage</button>
+                                <button id="storageThard" class="btn btn-outline-dark">1TB SSD Storage</button>
                             </div>
                         </div>
 
@@ -49,8 +49,8 @@
                         <div class="mb-4">
                             <h5>choose your delivery option</h5>
                             <div>
-                                <button class="btn btn-outline-danger">Friday, Agu 30 Free Prime Delivery</button>
-                                <button class="btn btn-outline-danger">Friday, Aug 25 Delivery charge $20</button>
+                                <button id="deliveryFree" class="btn btn-outline-dark">Friday, Agu 30 Free Prime Delivery</button>
+                                <button id="fastCostlyDelivery" class="btn btn-outline-dark">Friday, Aug 25 Delivery charge $20</button>
                                 
                             </div>
                         </div>
@@ -69,17 +69,17 @@
                                    </div>
               
                                    <div class="col-md-4 status">
-                                      <h5>$<span id="sub-total">1299</span> </h5>
-                                      <h5>$<span id="tax-amount">0</span> </h5>
-                                      <h5>$<span id="tax-amount">0</span> </h5>
-                                      <h5>$<span id="Total-price">0</span> </h5>
+                                      <h5>$<span id="main_price">1299</span> </h5>
+                                      <h5>$<span id="extra_memory_cost">0</span> </h5>
+                                      <h5>$<span id="changeStoragePrice">0</span> </h5>
+                                      <h5>$<span id="shippingCost">0</span> </h5>
                                    </div>
                                    <hr>
                                    <div class="col-md-8">
                                     <h5>Total Price: </h5>
                                    </div>
                                    <div class="col-md-4">
-                                    <h5>$<span id="tax-amount">1299</span> </h5>
+                                    <h5>$<span id="Total">1299</span> </h5>
                                    </div>
 
 
