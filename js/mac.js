@@ -69,5 +69,5 @@ function updateTotal() {
     const grandTotal = moneyChange + productPrice + storageChange + shippingChange;
     total.innerText = grandTotal;
 
-    // console.log(memoryField.innerText, price.innerText);
+    
 }
