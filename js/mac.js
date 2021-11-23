@@ -66,7 +66,9 @@ function updateTotal() {
     const storageChange = Number(storageField.innerText);
     const shippingChange = Number(shippingField.innerText);
     const productPrice = Number(price.innerText);
+
     const grandTotal = moneyChange + productPrice + storageChange + shippingChange;
+    
     total.innerText = grandTotal;
 
     
